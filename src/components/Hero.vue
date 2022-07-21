@@ -1,6 +1,6 @@
 <template>
   <div class="hero-sytle">
- <img src="../assets/returnal.jpg" alt="">
+ <img src="@/assets/returnal.jpg" alt="">
    
   </div>
 </template>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style>
-.hero-sytle {height: 100px}
+.hero-sytle { height: 500px}
+img {height: 100%;
+width: 100vw}
 </style>
